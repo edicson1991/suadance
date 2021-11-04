@@ -1,0 +1,73 @@
+.text-platzi {
+  color: #d68713 !important ;
+}
+.btn-platzi {
+  background-color: #d68713 !important;
+  color: white;
+}
+
+.btn-platzi:hover {
+  background-color: #010200;
+}
+#header img {
+  width: 150px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(60%);
+}
+
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+#footer {
+  background-color: #273b47;
+}
+
+#palce-time img {
+  width: 100%;
+}
+
+#palce-time {
+  background-image: radial-gradient(
+    circle at 45.56% 24.82%,
+    #003549 0,
+    #003342 6.25%,
+    #002f3a 12.5%,
+    #002a32 18.75%,
+    #012529 25%,
+    #061f20 31.25%,
+    #061817 37.5%,
+    #030f0e 43.75%,
+    #000000 50%,
+    #000000 56.25%,
+    #000000 62.5%,
+    #000000 68.75%,
+    #000000 75%,
+    #000000 81.25%,
+    #000000 87.5%,
+    #000000 93.75%,
+    #000000 100%
+  );
+  color: white;
+}
+
+#footer a {
+  color: aliceblue;
+}
