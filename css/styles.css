@@ -2,18 +2,30 @@
   color: #d68713 !important ;
 }
 .btn-platzi {
-  background-color: #d68713 !important;
+  background-color: #bc13d6 !important;
   color: white;
+  width: 150px;
 }
 
 .btn-platzi:hover {
-  background-color: #010200;
+  background-color: #5d0571;
+}
+.btn-platzi-f {
+  background-color: rgb(64, 168, 224);
+  color: white;
+  width: 150px;
+}
+
+.btn-platzi-f:hover {
+  background-color: rgb(75, 174, 227);
+  color: rgb(16, 83, 120);
 }
 #header img {
   width: 150px;
 }
 
 #main .carousel-inner img {
+  width: 100%;
   max-height: 70vh;
   object-fit: cover;
   filter: grayscale(60%);
@@ -37,7 +49,7 @@
   height: 100%;
 }
 #footer {
-  background-color: #273b47;
+  background-color: #010609;
 }
 
 #palce-time img {
